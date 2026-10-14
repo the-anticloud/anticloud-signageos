@@ -1,0 +1,124 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:83478967-13bc-5f30-8acf-6c2fd963e42a",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T16:24:52Z",
+  "component": {
+   "type": "application",
+   "name": "SIGNAGEOS",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/SIGNAGEOS@83b357604d34",
+   "purl": "pkg:generic/anticloud/SIGNAGEOS@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@babel/core",
+   "version": "^7.18.10",
+   "purl": "pkg:npm/@babel/core@^7.18.10",
+   "bom-ref": "npm/@babel/core@^7.18.10"
+  },
+  {
+   "type": "library",
+   "name": "@babel/preset-env",
+   "version": "^7.18.10",
+   "purl": "pkg:npm/@babel/preset-env@^7.18.10",
+   "bom-ref": "npm/@babel/preset-env@^7.18.10"
+  },
+  {
+   "type": "library",
+   "name": "@signageos/front-applet",
+   "version": "^5.4.2",
+   "purl": "pkg:npm/@signageos/front-applet@^5.4.2",
+   "bom-ref": "npm/@signageos/front-applet@^5.4.2"
+  },
+  {
+   "type": "library",
+   "name": "@signageos/front-display",
+   "version": "^9.21.1",
+   "purl": "pkg:npm/@signageos/front-display@^9.21.1",
+   "bom-ref": "npm/@signageos/front-display@^9.21.1"
+  },
+  {
+   "type": "library",
+   "name": "@signageos/webpack-plugin",
+   "version": "^0.3.0",
+   "purl": "pkg:npm/@signageos/webpack-plugin@^0.3.0",
+   "bom-ref": "npm/@signageos/webpack-plugin@^0.3.0"
+  },
+  {
+   "type": "library",
+   "name": "babel-loader",
+   "version": "^8.2.5",
+   "purl": "pkg:npm/babel-loader@^8.2.5",
+   "bom-ref": "npm/babel-loader@^8.2.5"
+  },
+  {
+   "type": "library",
+   "name": "css-loader",
+   "version": "^6.7.1",
+   "purl": "pkg:npm/css-loader@^6.7.1",
+   "bom-ref": "npm/css-loader@^6.7.1"
+  },
+  {
+   "type": "library",
+   "name": "html-webpack-plugin",
+   "version": "^5.5.0",
+   "purl": "pkg:npm/html-webpack-plugin@^5.5.0",
+   "bom-ref": "npm/html-webpack-plugin@^5.5.0"
+  },
+  {
+   "type": "library",
+   "name": "style-loader",
+   "version": "^3.3.1",
+   "purl": "pkg:npm/style-loader@^3.3.1",
+   "bom-ref": "npm/style-loader@^3.3.1"
+  },
+  {
+   "type": "library",
+   "name": "webpack",
+   "version": "^5.74.0",
+   "purl": "pkg:npm/webpack@^5.74.0",
+   "bom-ref": "npm/webpack@^5.74.0"
+  },
+  {
+   "type": "library",
+   "name": "webpack-cli",
+   "version": "^4.10.0",
+   "purl": "pkg:npm/webpack-cli@^4.10.0",
+   "bom-ref": "npm/webpack-cli@^4.10.0"
+  },
+  {
+   "type": "library",
+   "name": "webpack-dev-server",
+   "version": "^4.10.0",
+   "purl": "pkg:npm/webpack-dev-server@^4.10.0",
+   "bom-ref": "npm/webpack-dev-server@^4.10.0"
+  }
+ ],
+ "sha_unverified": true
+}
